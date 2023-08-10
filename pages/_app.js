@@ -3,6 +3,8 @@ import { Fragment, useEffect, useState } from "react";
 import "slick-carousel/slick/slick-theme.css";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/globals.css";
+
+
 function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
@@ -15,7 +17,7 @@ function MyApp({ Component, pageProps }) {
     <Fragment>
       <Head>
         <title>
-          Fintex - Consulting &amp; Financial Technology React NextJS Template
+          collage Dao
         </title>
         {/*====== Favicon Icon ======*/}
         <link
